@@ -11,11 +11,36 @@
 
 body {
   font-family: 'Spartan', sans-serif;
+  text-align: center;
 }
 
 main {
   margin: 80px 20px;
 }
+
+
+/* INTRO SECTION */
+
+h1 {
+  color: var(--dark-magenta);
+  font-weight: 700;
+}
+
+.intro p {
+  color: var(--dark-grayish-magenta);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
