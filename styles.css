@@ -11,19 +11,29 @@
 
 body {
   font-family: 'Spartan', sans-serif;
-  text-align: center;
+  margin: 0;
 }
 
 main {
-  margin: 80px 20px;
+  margin: 80px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
 /* INTRO SECTION */
 
 h1 {
+  margin: auto;
   color: var(--dark-magenta);
   font-weight: 700;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 99%;
+  max-width: 10ch;
+  
 }
 
 .intro p {
