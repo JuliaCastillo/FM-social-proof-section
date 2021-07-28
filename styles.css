@@ -149,11 +149,20 @@ h1 {
 
 @media screen and (min-width: 1200px) {
 
+  body {
+    background-image:url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: bottom 60vh right 50vw, top 20vh left 20vw;
+  background-repeat: no-repeat;
+  }
+
   main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    margin: 80px 50px;
   }
 
   /*   INTRO SECTION   */
@@ -162,12 +171,24 @@ h1 {
     text-align: start;
   }
 
+  .intro h1 {
+    margin: 10px;
+    font-size: 2.8em;
+  }
+
+  .intro p {
+    margin: 20px 10px;
+    max-width: 35ch;
+  }
+
 
   /*   RATINGS SECTION   */
 
   .rating-card {
     flex-direction: row;
     min-width: 450px;
+    padding: 15px 0;
+    margin: 10px 0;
   }
 
   .stars {
@@ -199,7 +220,7 @@ h1 {
   }
 
   .review-card {
-    margin: 0 20px;
+    margin: 0 10px;
   }
   .review-card:nth-child(1) {
     align-self: flex-start;
@@ -211,5 +232,12 @@ h1 {
 
   .review-card:nth-child(3) {
     align-self: flex-end;
+  }
+}
+
+
+@media screen and (min-width:1400px) {
+  main {
+    margin: 95px 150px;
   }
 }
