@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-social-proof-site-using-flexbox-and-grid-pXiqxLpg7)
 - Live Site URL: [Live site URL here](https://juliacastillo.github.io/FM-social-proof-section/)
 
 ## My process
